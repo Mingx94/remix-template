@@ -1,4 +1,4 @@
-import { unstable_vitePlugin as remix } from "@remix-run/dev";
+import { vitePlugin as remix } from "@remix-run/dev";
 import { installGlobals } from "@remix-run/node";
 import { defineConfig, mergeConfig } from "vitest/config";
 import viteConfig from "./vite.config";
